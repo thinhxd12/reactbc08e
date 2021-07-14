@@ -21,7 +21,6 @@ export default class Databinding extends Component {
             <img src={product.img} alt='...' />
             <div className="card-body">
                 <p>{product.name}</p>
-
                 <p>{product.price}</p>
                 <button className="btn btn-success">Mua hàng</button>
             </div>
