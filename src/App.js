@@ -6,7 +6,12 @@
 // import Demo from "./Databinding/Demo";
 // import HandleEvent from "./HandleEvent/HandleEvent";
 // import StyleComponent from "./StyleComponent/StyleComponent";
-import StateDemo from "./StateDemo/StateDemo";
+// import HomeLayout from "./Props/DemoProps/HomeLayout";
+// import StateDemo from "./StateDemo/StateDemo";
+// import RenderWithMap from "./RenderWithMap/RenderWithMap";
+
+import ShoesShop from "./Props/ShoesShop/ShoesShop";
+
 
 function App() {
   return (
@@ -17,7 +22,10 @@ function App() {
       {/* <Demo/> */}
       {/* <HandleEvent/> */}
       {/* <StyleComponent/> */}
-      <StateDemo/>
+      {/* <StateDemo/> */}
+      {/* <HomeLayout/> */}
+      {/* <RenderWithMap/> */}
+      <ShoesShop/>
     </div>
   );
 }
