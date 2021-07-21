@@ -9,8 +9,10 @@
 // import HomeLayout from "./Props/DemoProps/HomeLayout";
 // import StateDemo from "./StateDemo/StateDemo";
 // import RenderWithMap from "./RenderWithMap/RenderWithMap";
+// import ShoesShop from "./Props/ShoesShop/ShoesShop";
+// import BaiTapXemChiTiet from "./Props/BaiTapXemChiTiet/BaiTapXemChiTiet";
+import ExerciseCarStore from "./Props/ExerciseCarStore/ExerciseCarStore";
 
-import ShoesShop from "./Props/ShoesShop/ShoesShop";
 
 
 function App() {
@@ -25,7 +27,9 @@ function App() {
       {/* <StateDemo/> */}
       {/* <HomeLayout/> */}
       {/* <RenderWithMap/> */}
-      <ShoesShop/>
+      {/* <ShoesShop/> */}
+      {/* <BaiTapXemChiTiet /> */}
+      <ExerciseCarStore/>
     </div>
   );
 }
