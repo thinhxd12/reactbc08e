@@ -11,7 +11,8 @@
 // import RenderWithMap from "./RenderWithMap/RenderWithMap";
 // import ShoesShop from "./Props/ShoesShop/ShoesShop";
 // import BaiTapXemChiTiet from "./Props/BaiTapXemChiTiet/BaiTapXemChiTiet";
-import ExerciseCarStore from "./Props/ExerciseCarStore/ExerciseCarStore";
+// import ExerciseCarStore from "./Props/ExerciseCarStore/ExerciseCarStore";
+import ExerciseCart from "./Props/ExerciseCart/ExerciseCart";
 
 
 
@@ -29,7 +30,8 @@ function App() {
       {/* <RenderWithMap/> */}
       {/* <ShoesShop/> */}
       {/* <BaiTapXemChiTiet /> */}
-      <ExerciseCarStore/>
+      {/* <ExerciseCarStore/> */}
+      <ExerciseCart/>
     </div>
   );
 }
