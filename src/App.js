@@ -12,7 +12,8 @@
 // import ShoesShop from "./Props/ShoesShop/ShoesShop";
 // import BaiTapXemChiTiet from "./Props/BaiTapXemChiTiet/BaiTapXemChiTiet";
 // import ExerciseCarStore from "./Props/ExerciseCarStore/ExerciseCarStore";
-import ExerciseCart from "./Props/ExerciseCart/ExerciseCart";
+// import ExerciseCart from "./Props/ExerciseCart/ExerciseCart";
+import BaiTapGioHang from "./DemoRedux/BaiTapGioHang/BaiTapGioHang";
 
 
 
@@ -31,7 +32,8 @@ function App() {
       {/* <ShoesShop/> */}
       {/* <BaiTapXemChiTiet /> */}
       {/* <ExerciseCarStore/> */}
-      <ExerciseCart/>
+      {/* <ExerciseCart/> */}
+      <BaiTapGioHang/>
     </div>
   );
 }
