@@ -16,6 +16,7 @@
 // import BaiTapGioHang from "./DemoRedux/BaiTapGioHang/BaiTapGioHang";
 // import BaiTapGameXucXac from "./DemoRedux/BaiTapGameXucXac/BaiTapGameXucXac";
 import BaiTapQuanLyNguoiDung from "./DemoRedux/BaiTapQuanLyNguoiDung/BaiTapQuanLyNguoiDung";
+// import LifeCycleReact from "./LifeCycleReact/LifeCycleReact";
 
 
 
@@ -38,6 +39,7 @@ function App() {
       {/* <BaiTapGioHang/> */}
       {/* <BaiTapGameXucXac/> */}
       <BaiTapQuanLyNguoiDung/>
+      {/* <LifeCycleReact/> */}
     </div>
   );
 }

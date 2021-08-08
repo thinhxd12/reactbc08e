@@ -16,7 +16,15 @@ const stateDefault = {
             soDienThoai: '091091',
             loaiNguoiDung: 'QuanTri'
         }
-    ]
+    ],
+    nguoiDungChinhSua: {
+        taiKhoan: 'nguyenvana',
+        hoTen: 'Nguyễn Văn A',
+        matKhau: '123456789',
+        email: 'nguyenvana@gmail.com',
+        soDienThoai: '090090',
+        loaiNguoiDung: 'QuanTri'
+    },
 }
 
 export const BaiTapQuanLyNguoiDungReducer = (state = stateDefault, action) => {
@@ -26,9 +34,20 @@ export const BaiTapQuanLyNguoiDungReducer = (state = stateDefault, action) => {
             // state.mangNguoiDung.push(action.nguoiDung)
             return { ...state }
         }
-        case 'XOA_NGUOI_DUNG':{
+        case 'XOA_NGUOI_DUNG': {
             const mangNguoiDungCapNhat = [...state.mangNguoiDung]
-            state.mangNguoiDung = mangNguoiDungCapNhat.filter(nguoiDung=>nguoiDung.taiKhoan !== action.taiKhoan)
+            state.mangNguoiDung = mangNguoiDungCapNhat.filter(nguoiDung => nguoiDung.taiKhoan !== action.taiKhoan)
+            return { ...state }
+        }
+        case 'CHINH_SUA': {
+            state.nguoiDungChinhSua = action.nguoiDungChinhSua;
+           
+            
+            return {...state}
+        }
+        case 'HANDLE_CHANGE_INPUT' : {
+            state.nguoiDung = action.nguoiDungChinhSua;
+            
             return {...state}
         }
 
